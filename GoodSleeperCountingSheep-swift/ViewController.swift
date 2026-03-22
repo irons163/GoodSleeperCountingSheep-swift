@@ -65,7 +65,7 @@ class ViewController: UIViewController, BviewControllerDelegate, FullScreenConte
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
+            return .landscape
         } else {
             return .all
         }
